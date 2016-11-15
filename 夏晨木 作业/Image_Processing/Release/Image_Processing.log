@@ -1,0 +1,519 @@
+﻿生成启动时间为 2016/8/10 21:23:37。
+     1>项目“I:\CUDA\图像处理框架\夏晨木 作业\Image_Processing\Image_Processing.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Release\Image_Processing.unsuccessfulbuild”执行 Touch 任务。
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_WINDOWS /DNDEBUG /D_UNICODE /DUNICODE /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c "I:\CUDA\图像处理框架\夏晨木 作业\Image_Processing\CUDATest.cu" 
+       AddCudaCompilePropsDeps:
+       正在跳过目标“AddCudaCompilePropsDeps”，因为所有输出文件相对于输入文件而言都是最新的。
+       CudaBuild:
+         Compiling CUDA source file CUDATest.cu...
+         cmd.exe /C "C:\Users\SCU_IMAGE\AppData\Local\Temp\tmp85563e8d055a47ffb8d26cdec9b89419.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -DWIN32 -D_WINDOWS -DNDEBUG -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MT " -o Release\CUDATest.cu.obj "I:\CUDA\图像处理框架\夏晨木 作业\Image_Processing\CUDATest.cu"
+         
+         I:\CUDA\图像处理框架\夏晨木 作业\Image_Processing>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -DWIN32 -D_WINDOWS -DNDEBUG -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MT " -o Release\CUDATest.cu.obj "I:\CUDA\图像处理框架\夏晨木 作业\Image_Processing\CUDATest.cu" 
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(859): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(1807): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(2657): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(3541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(4492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(5412): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(6320): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(7195): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(8066): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h(775): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>I:/CUDA/图像处理框架/夏晨木 作业/Image_Processing/CUDATest.cu(57): warning : transfer of control bypasses initialization of:
+                     variable "tmp2"
+         (103): here
+         
+     1>I:/CUDA/图像处理框架/夏晨木 作业/Image_Processing/CUDATest.cu(96): warning : transfer of control bypasses initialization of:
+                     variable "tmp2"
+         (103): here
+         
+     1>I:/CUDA/图像处理框架/夏晨木 作业/Image_Processing/CUDATest.cu(103): warning : variable "tmp2" was set but never used
+         
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(859): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(1807): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(2657): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(3541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(4492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(5412): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(6320): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(7195): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(8066): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(859): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(1807): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(2657): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(3541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(4492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(5412): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(6320): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(7195): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(8066): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(910): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(1903): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(2843): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(3779): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(4721): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(5723): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(6682): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(7610): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(8543): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(9413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(10391): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(11435): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h(775): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(910): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(1903): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(2843): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(3779): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(4721): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(5723): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(6682): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(7610): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(8543): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(9413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(10391): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(11435): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h(775): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(859): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(1807): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(2657): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(3541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(4492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(5412): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(6320): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(7195): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(8066): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h(775): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>I:/CUDA/图像处理框架/夏晨木 作业/Image_Processing/CUDATest.cu(57): warning : transfer of control bypasses initialization of:
+                     variable "tmp2"
+         (103): here
+         
+     1>I:/CUDA/图像处理框架/夏晨木 作业/Image_Processing/CUDATest.cu(96): warning : transfer of control bypasses initialization of:
+                     variable "tmp2"
+         (103): here
+         
+     1>I:/CUDA/图像处理框架/夏晨木 作业/Image_Processing/CUDATest.cu(103): warning : variable "tmp2" was set but never used
+         
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include\thrust/detail/allocator/allocator_traits.h(102): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(859): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(1807): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(2657): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(3541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(4492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(5412): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(6320): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(7195): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(8066): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         CUDATest.cu
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include\thrust/detail/allocator/allocator_traits.h(130): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>I:/CUDA/图像处理框架/夏晨木 作业/Image_Processing/CUDATest.cu(62): warning C4018: “<”: 有符号/无符号不匹配
+     1>I:/CUDA/图像处理框架/夏晨木 作业/Image_Processing/CUDATest.cu(64): warning C4018: “<”: 有符号/无符号不匹配
+     1>I:/CUDA/图像处理框架/夏晨木 作业/Image_Processing/CUDATest.cu(72): warning C4018: “<”: 有符号/无符号不匹配
+     1>I:/CUDA/图像处理框架/夏晨木 作业/Image_Processing/CUDATest.cu(74): warning C4018: “<”: 有符号/无符号不匹配
+     1>I:/CUDA/图像处理框架/夏晨木 作业/Image_Processing/CUDATest.cu(82): warning C4018: “<”: 有符号/无符号不匹配
+     1>I:/CUDA/图像处理框架/夏晨木 作业/Image_Processing/CUDATest.cu(84): warning C4018: “<”: 有符号/无符号不匹配
+     1>I:/CUDA/图像处理框架/夏晨木 作业/Image_Processing/CUDATest.cu(126): warning C4018: “<”: 有符号/无符号不匹配
+     1>I:/CUDA/图像处理框架/夏晨木 作业/Image_Processing/CUDATest.cu(128): warning C4018: “<”: 有符号/无符号不匹配
+     1>I:/CUDA/图像处理框架/夏晨木 作业/Image_Processing/CUDATest.cu(134): warning C4018: “<”: 有符号/无符号不匹配
+     1>I:/CUDA/图像处理框架/夏晨木 作业/Image_Processing/CUDATest.cu(136): warning C4018: “<”: 有符号/无符号不匹配
+     1>I:/CUDA/图像处理框架/夏晨木 作业/Image_Processing/CUDATest.cu(143): warning C4018: “<”: 有符号/无符号不匹配
+     1>I:/CUDA/图像处理框架/夏晨木 作业/Image_Processing/CUDATest.cu(145): warning C4018: “<”: 有符号/无符号不匹配
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\Image_Processing.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Image_Processing.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Calculate.cpp CplexNum.cpp DownTimes.cpp FastFourierTran.cpp Fourier.cpp GeometricMeanFilter.cpp HistDrawDialg.cpp Image_Processing.cpp Image_ProcessingDoc.cpp Image_ProcessingView.cpp LowGray.cpp MainFrm.cpp MeanFilter.cpp MedianFilter.cpp MyImage_.cpp MyView.cpp PepperSalt.cpp PropB.cpp PropG.cpp PropR.cpp RGBSheet.cpp Slider.cpp TreeControl.cpp TreeControlTest.cpp ViewTest.cpp WarnDlg.cpp
+         Calculate.cpp
+         CplexNum.cpp
+         DownTimes.cpp
+         FastFourierTran.cpp
+         Fourier.cpp
+     1>Fourier.cpp(31): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Fourier.cpp(48): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+         GeometricMeanFilter.cpp
+     1>GeometricMeanFilter.cpp(47): error C2664: “CWnd::SetWindowTextW”: 不能将参数 1 从“const char [25]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>GeometricMeanFilter.cpp(50): error C2664: “CWnd::SetWindowTextW”: 不能将参数 1 从“const char [29]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>GeometricMeanFilter.cpp(53): error C2664: “CComboBox::AddString”: 不能将参数 1 从“const char [31]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>GeometricMeanFilter.cpp(54): error C2664: “CComboBox::AddString”: 不能将参数 1 从“const char [31]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>GeometricMeanFilter.cpp(55): error C2664: “CComboBox::AddString”: 不能将参数 1 从“const char [31]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>GeometricMeanFilter.cpp(56): error C2664: “CComboBox::AddString”: 不能将参数 1 从“const char [31]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>GeometricMeanFilter.cpp(57): error C2664: “CComboBox::AddString”: 不能将参数 1 从“const char [32]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>GeometricMeanFilter.cpp(58): error C2664: “CComboBox::AddString”: 不能将参数 1 从“const char [32]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>GeometricMeanFilter.cpp(59): error C2664: “CComboBox::AddString”: 不能将参数 1 从“const char [32]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>GeometricMeanFilter.cpp(64): error C2664: “CWnd::SetWindowTextW”: 不能将参数 1 从“const char [23]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>GeometricMeanFilter.cpp(65): error C2664: “CComboBox::AddString”: 不能将参数 1 从“const char [31]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>GeometricMeanFilter.cpp(66): error C2664: “CComboBox::AddString”: 不能将参数 1 从“const char [31]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>GeometricMeanFilter.cpp(67): error C2664: “CComboBox::AddString”: 不能将参数 1 从“const char [31]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>GeometricMeanFilter.cpp(68): error C2664: “CComboBox::AddString”: 不能将参数 1 从“const char [31]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>GeometricMeanFilter.cpp(69): error C2664: “CComboBox::AddString”: 不能将参数 1 从“const char [31]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>GeometricMeanFilter.cpp(70): error C2664: “CComboBox::AddString”: 不能将参数 1 从“const char [31]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>GeometricMeanFilter.cpp(71): error C2664: “CComboBox::AddString”: 不能将参数 1 从“const char [31]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+         HistDrawDialg.cpp
+     1>HistDrawDialg.cpp(97): error C2440: “初始化”: 无法从“const char [1]”转换为“ATL::CStringT<BaseType,StringTraits>”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC<wchar_t>
+                 ]
+                 class“ATL::CStringT<BaseType,StringTraits>”的构造函数声明为“explicit”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC<wchar_t>
+                 ]
+     1>HistDrawDialg.cpp(102): error C2039: “TextOutA”: 不是“CDC”的成员
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h(579) : 参见“CDC”的声明
+     1>HistDrawDialg.cpp(106): error C2039: “TextOutA”: 不是“CDC”的成员
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h(579) : 参见“CDC”的声明
+     1>HistDrawDialg.cpp(121): error C2664: “void ATL::CStringT<BaseType,StringTraits>::Format(const wchar_t *,...)”: 不能将参数 1 从“const char [5]”转换为“const wchar_t *”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC<wchar_t>
+                 ]
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>HistDrawDialg.cpp(124): error C2039: “TextOutA”: 不是“CDC”的成员
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h(579) : 参见“CDC”的声明
+     1>HistDrawDialg.cpp(129): error C2039: “TextOutA”: 不是“CDC”的成员
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h(579) : 参见“CDC”的声明
+     1>HistDrawDialg.cpp(135): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>HistDrawDialg.cpp(137): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+         Image_Processing.cpp
+         Image_ProcessingDoc.cpp
+         Image_ProcessingView.cpp
+     1>i:\cuda\图像处理框架\夏晨木 作业\image_processing\HistDraw.h(32): error C2440: “初始化”: 无法从“const char [1]”转换为“ATL::CStringT<BaseType,StringTraits>”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC<wchar_t>
+                 ]
+                 class“ATL::CStringT<BaseType,StringTraits>”的构造函数声明为“explicit”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC<wchar_t>
+                 ]
+     1>i:\cuda\图像处理框架\夏晨木 作业\image_processing\HistDraw.h(37): error C2039: “TextOutA”: 不是“CDC”的成员
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h(579) : 参见“CDC”的声明
+     1>i:\cuda\图像处理框架\夏晨木 作业\image_processing\HistDraw.h(41): error C2039: “TextOutA”: 不是“CDC”的成员
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h(579) : 参见“CDC”的声明
+     1>i:\cuda\图像处理框架\夏晨木 作业\image_processing\HistDraw.h(59): error C2664: “void ATL::CStringT<BaseType,StringTraits>::Format(const wchar_t *,...)”: 不能将参数 1 从“const char [5]”转换为“const wchar_t *”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC<wchar_t>
+                 ]
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>i:\cuda\图像处理框架\夏晨木 作业\image_processing\HistDraw.h(62): error C2039: “TextOutA”: 不是“CDC”的成员
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h(579) : 参见“CDC”的声明
+     1>i:\cuda\图像处理框架\夏晨木 作业\image_processing\HistDraw.h(67): error C2039: “TextOutA”: 不是“CDC”的成员
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h(579) : 参见“CDC”的声明
+     1>i:\cuda\图像处理框架\夏晨木 作业\image_processing\HistDraw.h(73): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(207): error C2664: “BOOL CDC::TextOutW(int,int,const CString &)”: 不能将参数 3 从“const char [7]”转换为“const CString &”
+                 原因如下: 无法从“const char [7]”转换为“const CString”
+                 class“ATL::CStringT<BaseType,StringTraits>”的构造函数声明为“explicit”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC<wchar_t>
+                 ]
+     1>Image_ProcessingView.cpp(209): error C2664: “BOOL CDC::TextOutW(int,int,const CString &)”: 不能将参数 3 从“const char [7]”转换为“const CString &”
+                 原因如下: 无法从“const char [7]”转换为“const CString”
+                 class“ATL::CStringT<BaseType,StringTraits>”的构造函数声明为“explicit”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC<wchar_t>
+                 ]
+     1>Image_ProcessingView.cpp(343): error C2664: “CWnd::MessageBoxW”: 不能将参数 1 从“const char [25]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Image_ProcessingView.cpp(532): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>Image_ProcessingView.cpp(564): warning C4244: “=”: 从“float”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(565): warning C4244: “=”: 从“float”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(566): warning C4244: “=”: 从“float”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(601): error C2664: “CWnd::MessageBoxW”: 不能将参数 1 从“const char [39]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Image_ProcessingView.cpp(614): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(673): error C2664: “CWnd::MessageBoxW”: 不能将参数 1 从“const char [31]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Image_ProcessingView.cpp(920): error C2664: “CWnd::MessageBoxW”: 不能将参数 1 从“const char [25]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Image_ProcessingView.cpp(1079): error C2664: “CWnd::MessageBoxW”: 不能将参数 1 从“const char [36]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Image_ProcessingView.cpp(1149): error C2664: “CWnd::MessageBoxW”: 不能将参数 1 从“const char [45]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Image_ProcessingView.cpp(1193): warning C4244: “=”: 从“long”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(1194): warning C4244: “=”: 从“long”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(1195): warning C4244: “=”: 从“long”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(1199): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(1234): error C2664: “void ATL::CStringT<BaseType,StringTraits>::Format(const wchar_t *,...)”: 不能将参数 1 从“const char [3]”转换为“const wchar_t *”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC<wchar_t>
+                 ]
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Image_ProcessingView.cpp(1267): error C2664: “CWnd::MessageBoxW”: 不能将参数 1 从“const char [45]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Image_ProcessingView.cpp(1325): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(1551): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(1564): warning C4244: “=”: 从“long double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(1579): warning C4244: “=”: 从“double”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(1611): error C2664: “CWnd::MessageBoxW”: 不能将参数 1 从“const char [17]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Image_ProcessingView.cpp(1678): warning C4244: “=”: 从“double”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(1722): error C2664: “CWnd::MessageBoxW”: 不能将参数 1 从“const char [45]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Image_ProcessingView.cpp(1766): warning C4244: “=”: 从“long double”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(1767): warning C4244: “=”: 从“long double”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(1768): warning C4244: “=”: 从“long double”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(1772): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(1838): error C2664: “CWnd::MessageBoxW”: 不能将参数 1 从“const char [45]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Image_ProcessingView.cpp(1882): warning C4244: “=”: 从“long double”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(1883): warning C4244: “=”: 从“long double”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(1884): warning C4244: “=”: 从“long double”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(1888): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(1963): error C2664: “CWnd::MessageBoxW”: 不能将参数 1 从“const char [45]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Image_ProcessingView.cpp(2012): warning C4244: “=”: 从“long double”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(2013): warning C4244: “=”: 从“long double”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(2014): warning C4244: “=”: 从“long double”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(2019): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(2082): error C2664: “CWnd::MessageBoxW”: 不能将参数 1 从“const char [45]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Image_ProcessingView.cpp(2138): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(2201): error C2664: “CWnd::MessageBoxW”: 不能将参数 1 从“const char [45]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Image_ProcessingView.cpp(2257): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(2320): error C2664: “CWnd::MessageBoxW”: 不能将参数 1 从“const char [45]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Image_ProcessingView.cpp(2376): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(2726): error C2664: “CWnd::MessageBoxW”: 不能将参数 1 从“const char [21]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Image_ProcessingView.cpp(2800): error C2664: “CWnd::MessageBoxW”: 不能将参数 1 从“const char [21]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Image_ProcessingView.cpp(2880): error C2664: “CWnd::MessageBoxW”: 不能将参数 1 从“const char [21]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Image_ProcessingView.cpp(2968): error C2664: “CWnd::MessageBoxW”: 不能将参数 1 从“const char [45]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Image_ProcessingView.cpp(3030): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 Image_ProcessingView.cpp(3025) : 忽略“i”的定义
+                 Image_ProcessingView.cpp(3005) : 使用“i”的定义
+     1>Image_ProcessingView.cpp(3038): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 Image_ProcessingView.cpp(3025) : 忽略“i”的定义
+                 Image_ProcessingView.cpp(3005) : 使用“i”的定义
+     1>Image_ProcessingView.cpp(3038): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 Image_ProcessingView.cpp(3025) : 忽略“i”的定义
+                 Image_ProcessingView.cpp(3005) : 使用“i”的定义
+     1>Image_ProcessingView.cpp(3040): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 Image_ProcessingView.cpp(3025) : 忽略“i”的定义
+                 Image_ProcessingView.cpp(3005) : 使用“i”的定义
+     1>Image_ProcessingView.cpp(3041): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 Image_ProcessingView.cpp(3025) : 忽略“i”的定义
+                 Image_ProcessingView.cpp(3005) : 使用“i”的定义
+     1>Image_ProcessingView.cpp(3041): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 Image_ProcessingView.cpp(3025) : 忽略“i”的定义
+                 Image_ProcessingView.cpp(3005) : 使用“i”的定义
+     1>Image_ProcessingView.cpp(3047): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 Image_ProcessingView.cpp(3025) : 忽略“i”的定义
+                 Image_ProcessingView.cpp(3005) : 使用“i”的定义
+     1>Image_ProcessingView.cpp(3116): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(3186): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(3241): error C2664: “RGBSheet::RGBSheet(CImage_ProcessingView *,UINT,CWnd *,UINT)”: 不能将参数 3 从“const char [8]”转换为“CWnd *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Image_ProcessingView.cpp(3260): error C2664: “RGBSheet::RGBSheet(CImage_ProcessingView *,UINT,CWnd *,UINT)”: 不能将参数 3 从“const char [8]”转换为“CWnd *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Image_ProcessingView.cpp(3437): warning C4002: “min”宏的实参太多
+     1>Image_ProcessingView.cpp(3451): warning C4244: “=”: 从“double”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(3526): warning C4244: “=”: 从“double”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(3527): warning C4244: “=”: 从“double”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(3528): warning C4244: “=”: 从“double”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(3670): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>Image_ProcessingView.cpp(3671): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>Image_ProcessingView.cpp(3673): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>Image_ProcessingView.cpp(3675): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(3693): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(3710): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(3744): warning C4244: “=”: 从“float”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(3746): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(3763): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>Image_ProcessingView.cpp(3776): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(3779): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(3781): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>Image_ProcessingView.cpp(3783): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>Image_ProcessingView.cpp(3785): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(3788): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(3789): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(3790): warning C4244: “=”: 从“float”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(3794): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(3797): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(3799): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>Image_ProcessingView.cpp(3801): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>Image_ProcessingView.cpp(3803): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(3808): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(3809): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(3810): warning C4244: “=”: 从“float”转换到“BYTE”，可能丢失数据
+     1>Image_ProcessingView.cpp(3849): error C2039: “LoadMenuA”: 不是“CMenu”的成员
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h(1170) : 参见“CMenu”的声明
+     1>Image_ProcessingView.cpp(3894): error C2664: “CWnd::MessageBoxW”: 不能将参数 1 从“const char [45]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Image_ProcessingView.cpp(3935): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h(6699): 可能是“int AfxMessageBox(LPCTSTR,UINT,UINT)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h(6701): 或       “int AfxMessageBox(UINT,UINT,UINT)”
+                 尝试匹配参数列表“(const char [20])”时
+     1>Image_ProcessingView.cpp(3945): error C2665: “AfxMessageBox”: 2 个重载中没有一个可以转换所有参数类型
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h(6699): 可能是“int AfxMessageBox(LPCTSTR,UINT,UINT)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\afxwin.h(6701): 或       “int AfxMessageBox(UINT,UINT,UINT)”
+                 尝试匹配参数列表“(const char [24])”时
+     1>Image_ProcessingView.cpp(4017): error C2664: “void ATL::CStringT<BaseType,StringTraits>::Format(const wchar_t *,...)”: 不能将参数 1 从“const char [3]”转换为“const wchar_t *”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC<wchar_t>
+                 ]
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Image_ProcessingView.cpp(4138): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(4139): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(4140): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(4142): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(4156): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(4183): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Image_ProcessingView.cpp(4215): error C2664: “void ATL::CStringT<BaseType,StringTraits>::Format(const wchar_t *,...)”: 不能将参数 1 从“const char [3]”转换为“const wchar_t *”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC<wchar_t>
+                 ]
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+         LowGray.cpp
+         MainFrm.cpp
+         MeanFilter.cpp
+         MedianFilter.cpp
+         MyImage_.cpp
+     1>MyImage_.cpp(208): warning C4101: “lpSrc”: 未引用的局部变量
+         MyView.cpp
+     1>MyView.cpp(33): error C2664: “int CDC::DrawTextW(const CString &,LPRECT,UINT)”: 不能将参数 1 从“const char [198]”转换为“const CString &”
+                 原因如下: 无法从“const char [198]”转换为“const CString”
+                 class“ATL::CStringT<BaseType,StringTraits>”的构造函数声明为“explicit”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC<wchar_t>
+                 ]
+         PepperSalt.cpp
+         PropB.cpp
+     1>PropB.cpp(73): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>PropB.cpp(76): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>PropB.cpp(129): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>PropB.cpp(132): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>PropB.cpp(146): warning C4244: “=”: 从“double”转换到“BYTE”，可能丢失数据
+     1>PropB.cpp(147): warning C4244: “=”: 从“double”转换到“BYTE”，可能丢失数据
+     1>PropB.cpp(148): warning C4244: “=”: 从“double”转换到“BYTE”，可能丢失数据
+         PropG.cpp
+     1>PropG.cpp(85): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>PropG.cpp(88): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>PropG.cpp(124): warning C4002: “min”宏的实参太多
+     1>PropG.cpp(144): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>PropG.cpp(147): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>PropG.cpp(161): warning C4244: “=”: 从“double”转换到“BYTE”，可能丢失数据
+     1>PropG.cpp(162): warning C4244: “=”: 从“double”转换到“BYTE”，可能丢失数据
+     1>PropG.cpp(163): warning C4244: “=”: 从“double”转换到“BYTE”，可能丢失数据
+         PropR.cpp
+     1>PropR.cpp(101): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>PropR.cpp(104): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>PropR.cpp(149): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>PropR.cpp(164): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>PropR.cpp(167): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>PropR.cpp(182): warning C4244: “=”: 从“double”转换到“BYTE”，可能丢失数据
+     1>PropR.cpp(183): warning C4244: “=”: 从“double”转换到“BYTE”，可能丢失数据
+     1>PropR.cpp(184): warning C4244: “=”: 从“double”转换到“BYTE”，可能丢失数据
+         正在编译...
+         RGBSheet.cpp
+         Slider.cpp
+     1>Slider.cpp(67): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Slider.cpp(67): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Slider.cpp(67): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Slider.cpp(67): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Slider.cpp(85): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Slider.cpp(85): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Slider.cpp(85): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Slider.cpp(85): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Slider.cpp(100): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Slider.cpp(100): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Slider.cpp(100): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Slider.cpp(100): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Slider.cpp(113): error C2664: “CWnd::SetWindowTextW”: 不能将参数 1 从“const char [21]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Slider.cpp(116): error C2664: “CWnd::SetWindowTextW”: 不能将参数 1 从“const char [19]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Slider.cpp(119): error C2664: “CWnd::SetWindowTextW”: 不能将参数 1 从“const char [23]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Slider.cpp(123): error C2664: “CWnd::SetWindowTextW”: 不能将参数 1 从“const char [19]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Slider.cpp(127): error C2664: “CWnd::SetWindowTextW”: 不能将参数 1 从“const char [17]”转换为“LPCTSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Slider.cpp(134): error C2664: “void ATL::CStringT<BaseType,StringTraits>::Format(const wchar_t *,...)”: 不能将参数 1 从“const char [4]”转换为“const wchar_t *”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC<wchar_t>
+                 ]
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+         TreeControl.cpp
+     1>TreeControl.cpp(48): error C2039: “LoadIconA”: 不是“CImage_ProcessingApp”的成员
+                 i:\cuda\图像处理框架\夏晨木 作业\image_processing\Image_Processing.h(17) : 参见“CImage_ProcessingApp”的声明
+     1>TreeControl.cpp(49): error C2039: “LoadIconA”: 不是“CImage_ProcessingApp”的成员
+                 i:\cuda\图像处理框架\夏晨木 作业\image_processing\Image_Processing.h(17) : 参见“CImage_ProcessingApp”的声明
+     1>TreeControl.cpp(50): error C2039: “LoadIconA”: 不是“CImage_ProcessingApp”的成员
+                 i:\cuda\图像处理框架\夏晨木 作业\image_processing\Image_Processing.h(17) : 参见“CImage_ProcessingApp”的声明
+         TreeControlTest.cpp
+         ViewTest.cpp
+         WarnDlg.cpp
+     1>已完成生成项目“I:\CUDA\图像处理框架\夏晨木 作业\Image_Processing\Image_Processing.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:20.77
